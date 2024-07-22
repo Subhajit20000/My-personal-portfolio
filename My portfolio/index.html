@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my practice html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left">Subhajit's portfolio </div>
+        <div class="right">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="left_Section">
+            <p class="first_Para">Hi, I am <span>Subhajit</span></p>
+            <p class="second_Para">I am a <span>Web Developer</span></p>
+            <p class="third_Para">I love <span id="element"></span></p>
+        </div>
+
+        <div class="right_Section">
+            <img src="section.png" alt="Developer Png">
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['HTML', 'CSS', 'javaScript', 'Coding'],
+          typeSpeed: 100, 
+        });
+      </script>
+</body>
+
+</html>
